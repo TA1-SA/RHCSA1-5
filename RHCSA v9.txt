@@ -14,16 +14,40 @@ Debian
 Ubuntu 
 
 ======================================================================================================================
-
+**linux Hirarechy :
                                                                 /        [this pc]
 
 etc ==>configration file      home====>user directory[c:\users]   root ===>super user directory   dev==>any connected device 
 
 
+========================================================================================================================
+**wilcard 
+
+~  ==>tilde    [home directory]
+
+=================================================================================
+**Basic Commands :
+
+pwd ==> print working directiry 
+ls===>list file & directory
+touch==> create file
+mkdir==>create directory 
+=================================================================================
+Shell name expansion : way to create sequences of dir or files 
+
+eg:
+
+touch file{1..100} 
 
 
+mkdir dir{1..10}
 
 
+rm file{50..100}
+
+rm file{10,15,20}
+
+rm -r dir1 
 
 
 
