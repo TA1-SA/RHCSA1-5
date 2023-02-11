@@ -1,0 +1,48 @@
+RHCSA ==>redhat certified system administrator v9
+
+duration 5 weeks    ===>2weeks (fundementals)
+		    ===>3 weeks (Advanced)
+
+
+
+RHEL ==>Servers [subscription]
+Centos==>Free 
+Oracle linux==>subscription 
+
+
+Debian 
+Ubuntu 
+
+======================================================================================================================
+
+                                                                /        [this pc]
+
+etc ==>configration file      home====>user directory[c:\users]   root ===>super user directory   dev==>any connected device 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
