@@ -5,30 +5,26 @@ users : object in linux OS [Execute Commands:Operation:assgining Permission]
   
 **every user has :
 1-Username & User id   regular userid >=1000      system user id <=999
-
 2-Permissions 
-
 3-primary group 
-
 4-home directory 
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Commads : 
  $useradd  --->add single user
  $usermod ---> modify single user
  $userdel ---> delete signle user
-
+ $passwd --->reset user password
 eg : 
 $useradd mhmad  ---> user mhmad added with his primary group mhmad and with his homedir /home/mhmad
                 --->sequential userid 
                ---> No PASSWORD !!
-
+$passwd mhmad 
 configuration file : 
-
+                       tail  /etc/shadow {last 10 lines}       cat /etc/shadow --->disply all file content 
 /etc/shadow  ---> password properties   {chage -l username}
 /etc/passwd  ---> user properties  {username ,userid ,groupid,home dir}
-
-
-
+https://github.com/TA1-SA/RHCSA1-5
+https://github.com/TA1-SA
 
 
 
