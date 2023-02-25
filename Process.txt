@@ -1,0 +1,130 @@
+########################
+Process 
+########################
+
+-any running Program 
+-each process need a user to run 
+-each process has : 
+
+1-state 
+**Scheduling in cpu to be handled
+**then it will be in Running state
+**forking happens and child process been instantiated 
+**child process will be in a running state
+**parent Process will be in sleeping state
+ 
+
+      R    parent (S)        R    Z  X
+process  ------------------------------------------
+        |                  |
+        |--------------------------------------
+ 		child (R)	Zombie [Z][X] 
+
+
+
+       R    parent (S)    (D)   (K)
+process  ------------------------------------------
+        |                  
+        |--------------------------------------
+ 		child (R)
+State :
+1-Running   R
+
+2-Sleeping  S D K 
+
+3-Suspend   T  T 
+
+4-Zombie   Z   X 
+
+**Commands:
+ 1- ps aux   Process  
+ 2- ps -ef  process  PProcess 
+ 3- top   [real time ]
+ 4- kill 
+ 5-killall 
+ **6-pkill
+7-jobs
+
+
+process [command] run by system user is called job 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2-privileges
+
+3-allocated resources 

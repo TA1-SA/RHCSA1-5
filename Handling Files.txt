@@ -1,0 +1,42 @@
+##############
+Editing Files
+##############
+
+vim file1 -->create file1 if its not exist
+          -->edit file1
+
+entered file1 -->command mode? --> 
+-insert  [i,a,o,O]
+-navigation -->arrow ,pageup pagedown,
+	gg -->first line
+	G--->last line 
+-delete line -->dd
+--copy line --->yy
+--past line --->pp
+--search---> /pattern       n >>next item 
+--undo ---> u
+--exit&save --> :wq 
+--exit&no save-> :!q
+
+++++++++++++++++++++++
+Redirect operator :
+
+ >   ---> overwrite
+ >>    --->append [add to the end ]
+
+eg: 
+echo im mohammad >>file2 [adding content at the end of file]
+
+echo im mohammad > [overwrite content ]
+
+Error redirecting 
+
+datee >>network1  2>>Error 
+ if the command in corrent then output will be redirected to network1 
+if there is an error it will be redirected to Error file 
+
+datee >>network1  2>>/dev/null 
+if you want the error to trash away  
+
+
+
